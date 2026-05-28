@@ -1,16 +1,23 @@
-# React + Vite
+# 🚀 Mon Portfolio Personnel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur le dépôt de mon portfolio ! C'est un espace où je présente mon parcours d'étudiante, mes compétences techniques en développement web, ainsi que les projets que j'ai réalisés.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies utilisées
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+*   **Frontend :** React.js, Tailwind CSS (v3)
+*   **Backend :** Laravel
+*   **Design & Maquetatage :** Figma
+*   **Icônes :** React Icons
 
-## React Compiler
+## ✨ Fonctionnalités actuelles
+*   **Hero Section :** Une présentation moderne, dynamique et animée avec Tailwind CSS.
+*   **Design Responsive :** Entièrement optimisé pour les écrans mobiles, tablettes et ordinateurs.
+*   **Thème Sombre (Dark Mode) :** Une ambiance moderne et épurée axée sur le développement.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Installation locale
 
-## Expanding the ESLint configuration
+Si vous souhaitez cloner ce projet et l'exécuter localement :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Cloner le dépôt :
+```bash
+   git clone <lien-de-ton-depot>
