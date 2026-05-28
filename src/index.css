@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "@fontsource/inter";
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('./assets/fonts/ClashDisplay-Bold.ttf');
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #050816;
+}
+
+h1, h2, h3 {
+  font-family: 'ClashDisplay', sans-serif;
+}
+@layer utilities {
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px) rotate(6deg);
+    }
+    50% {
+      transform: translateY(-15px) rotate(4deg); /* Monte légèrement et réduit l'inclinaison */
+    }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+}
